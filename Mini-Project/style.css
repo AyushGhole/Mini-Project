@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu-section {
+  margin: 20px 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.menu-item span {
+  font-weight: bold;
+}
+
+.form-section {
+  margin: 20px 0;
+}
+
+.form-section label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+.burgerSublist{
+display: none;
+}
+.Color{
+  color: green;
+}
+
+.pizzaList{
+  display: none;
+}
+
+.southList{
+  display: none;
+}
+
+.saladList{
+  display: none;
+}
+
+.drinkList{
+  display: none;
+}

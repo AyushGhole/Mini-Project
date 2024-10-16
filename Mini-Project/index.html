@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu System.com</title>
+  <link rel="stylesheet" href="style.css "> 
+  <link rel="icon" href="./icons.png">
+</head>
+<body>
+
+  <div class="container">
+      <h1>Order Your Meal Online</h1>
+  
+      <!-- Menu Section -->
+      <div class="menu-section">
+          <h2>Menu</h2>
+  
+          <form action="./thankyoupage/submit_order.html" method="POST">
+              <!-- Pizza Section -->
+              <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="pizza" id="pizza">
+                  <label for="pizza">Pizza</label>
+                  <span class="Color">Available</span>
+              </div>
+                  <!-- Pizza sub-list -->
+                  <ul class="pizzaList">
+                    <li>
+                      <div class="menu-item">
+                        <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                        <label for="burger">Chi. Cheese Pizza</label>
+                        <span>$27.00</span>
+                    </div>
+                    </li>
+                    <li>
+                      <div class="menu-item">
+                        <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                        <label for="burger">Paneer Pizza</label>
+                        <span>$25.00</span>
+                    </div>
+                    </li>
+                    <li>
+                      <div class="menu-item">
+                        <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                        <label for="burger">Maganerita</label>
+                        <span>$23.50</span>
+                    </div>
+                </ul>
+
+              <!-- Burger Section -->
+              <div class="menu-item" id="main-burger">
+                  <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                  <label for="burger">Burger</label>
+                  <span class="Color">Available</span>
+              </div>
+              <!-- Burger sub-list -->
+               <ul class="burgerSublist">
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Chi. Cheese Burger</label>
+                    <span>$7.00</span>
+                </div>
+                </li>
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Paneer Burger</label>
+                    <span>$5.00</span>
+                </div>
+                </li>
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Veg. Burger</label>
+                    <span>$3.50</span>
+                </div>
+                </li>
+                <li> <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                  <label for="burger">Crunchy Burger</label>
+                  <span>$2.3</span>
+              </div></li>
+            </ul>
+
+              <!-- Burger Section -->
+              <div class="menu-item">
+                <input type="checkbox" name="menu_item" value="south" id="south">
+                <label for="south">South Indian</label>
+                <span class="Color">Available</span>
+            </div>
+
+            <ul class="southList">
+              <li>
+                <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                  <label for="burger">Idli</label>
+                  <span>$4.00</span>
+              </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                  <label for="burger">Medu Vada</label>
+                  <span>$7.00</span>
+              </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                  <label for="burger">Appam</label>
+                  <span>$2.50</span>
+              </div>
+              </li>
+          </ul>
+
+  
+              <!-- Salad Section -->
+              <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Salad" id="salad">
+                  <label for="salad">Salad</label>
+                  <span class="Color">Available</span>
+              </div>
+              
+              <ul class="saladList">
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Fruits Salad</label>
+                    <span>$3.00</span>
+                </div>
+                </li>
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Vegetable Salad</label>
+                    <span>$2.60</span>
+                </div>
+                </li>
+                
+            </ul>
+
+
+  
+              <!-- Drink Section -->
+              <div class="menu-item">
+                  <input type="checkbox" name="menu_item" value="Drink" id="drink">
+                  <label for="drink">Drink</label>
+                  <span class="Color">Available</span>
+              </div>
+
+              <ul class="drinkList">
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Mocktails</label>
+                    <span>$13.00</span>
+                </div>
+                </li>
+                <li>
+                  <div class="menu-item">
+                    <input type="checkbox" name="menu_item" value="Burger" id="burger">
+                    <label for="burger">Wine</label>
+                    <span>$22.60</span>
+                </div>
+                </li>
+                
+            </ul>
+  
+              <!-- Customer Details Section -->
+              <div class="form-section">
+                  <h2>Your Details</h2>
+  
+                  <!-- Name -->
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" required>
+  
+                  <!-- Phone -->
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" required>
+  
+                  <!-- Address -->
+                  <label for="address">Delivery Address</label>
+                  <textarea id="address" name="address" rows="3" required></textarea>
+  
+                  <!-- Payment Method -->
+                  <label for="payment">Payment Method</label>
+                  <select id="payment" name="payment_method" required>
+                    <option value="paypal">Select</option>
+                      <option value="credit_card">Credit Card</option>
+                      <option value="cash">Cash on Delivery</option>
+                      <option value="paypal">PayPal</option>
+                  </select>
+              </div>
+  
+              <!-- Submit Button -->
+              <div>
+                  <button type="submit" class="submit-btn">Place Order</button>
+              </div>
+          </form>
+      </div>
+  </div>
+  
+  <script src="app.js"></script>
+  </body>
+</html>
